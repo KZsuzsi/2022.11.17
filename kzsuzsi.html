@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kzsuzsi.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+        <select name="Megszolitas" id="Megszolitas">
+            <option value="Doktor" >Doktor</option>
+            <option value="Ifjabb" >Ifjabb</option>
+            <option value="Idosebb">Idősebb</option>
+            <option value="Ozvegy">Özvegy</option>
+        </select><br>
+
+    <div required id="required">
+        <label for="Nev">Név:</label>
+        <input type="text" id="Nev" name="Nev" required value="50" placeholder="Minta Pál" /><br>
+    </div>
+
+    <div required id="required"></div>
+        <label for="jelszo">Jelszó:</label>
+        <input type="password" id="jelszo" name="jelszo" required min="6"/><br>
+    </div>
+
+        <select name="Nem" id="Nem">
+            <option value="No" >Nő</option>
+            <option value="Ferfi" >Férfi</option>
+            <option value="Hermafrodita">Hermafrodita</option>
+        </select><br>
+
+        <label for="szuletesiDatum">Születési dátum:</label>
+        <input type="date" id="SzuletesiDatum" name="SzuletesiDatum" min="1900-01-01"/><br>
+
+    <div required id="required"></div>
+        <label for="emailAddress">E-mail cím:</label>
+        <input type="email" id="emailAddress" name="emailAddress" required placeholder="valami@valami.valami"/><br>
+    </div>
+
+    <div required id="required"></div>
+        <label for="hirlevel">Hírlevél:</label>
+        <input type="checkbox" id="hirlevel" name="hirlevel" required/><br>
+    </div>
+
+        <textarea cols="40" rows="5" placeholder="egyéb közlendő" aria-placeholder="sok-sok valami"></textarea>
+
+        <button name="gomb" value="mit csinál">feldolgozás indítás!</button><br>
+
+        <input type="submit" id="adatokAlaphelyzetbeAllitasa" name="FeldolgozasIndul">
+        <input type="reset" id="adatokAlaphelyzetbeAllitasa" name="adatokAlaphelyzetbeAllitasa">
+    </fieldset>
+    </form>
+</body>
+</html>
+
+
